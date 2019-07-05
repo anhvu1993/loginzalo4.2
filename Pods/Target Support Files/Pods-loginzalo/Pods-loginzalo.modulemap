@@ -1,0 +1,6 @@
+framework module Pods_loginzalo {
+  umbrella header "Pods-loginzalo-umbrella.h"
+
+  export *
+  module * { export * }
+}

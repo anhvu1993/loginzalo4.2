@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C05B7E9544DBF50D75719203 /* Pods_loginzalo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A9C3FEDEC1037E5C13F570 /* Pods_loginzalo.framework */; };
+		F6E62D6122CD8B8400D8EE9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E62D6022CD8B8400D8EE9D /* AppDelegate.swift */; };
+		F6E62D6322CD8B8400D8EE9D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E62D6222CD8B8400D8EE9D /* LoginViewController.swift */; };
+		F6E62D6622CD8B8400D8EE9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E62D6422CD8B8400D8EE9D /* Main.storyboard */; };
+		F6E62D6822CD8B8500D8EE9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6E62D6722CD8B8500D8EE9D /* Assets.xcassets */; };
+		F6E62D6B22CD8B8500D8EE9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6E62D6922CD8B8500D8EE9D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		221C18F6B0131C5DB449921F /* Pods-loginzalo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginzalo.debug.xcconfig"; path = "Target Support Files/Pods-loginzalo/Pods-loginzalo.debug.xcconfig"; sourceTree = "<group>"; };
+		6A7ED5801A34B787E7DB5C95 /* Pods-loginzalo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-loginzalo.release.xcconfig"; path = "Target Support Files/Pods-loginzalo/Pods-loginzalo.release.xcconfig"; sourceTree = "<group>"; };
+		F6E62D5D22CD8B8400D8EE9D /* loginzalo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loginzalo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6E62D6022CD8B8400D8EE9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6E62D6222CD8B8400D8EE9D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F6E62D6522CD8B8400D8EE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6E62D6722CD8B8500D8EE9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6E62D6A22CD8B8500D8EE9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6E62D6C22CD8B8500D8EE9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A9C3FEDEC1037E5C13F570 /* Pods_loginzalo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_loginzalo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6E62D5A22CD8B8400D8EE9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C05B7E9544DBF50D75719203 /* Pods_loginzalo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12923C5D3E6E5D81C62820BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A9C3FEDEC1037E5C13F570 /* Pods_loginzalo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4F9357D512C46845B27AD4C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				221C18F6B0131C5DB449921F /* Pods-loginzalo.debug.xcconfig */,
+				6A7ED5801A34B787E7DB5C95 /* Pods-loginzalo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F6E62D5422CD8B8400D8EE9D = {
+			isa = PBXGroup;
+			children = (
+				F6E62D5F22CD8B8400D8EE9D /* loginzalo */,
+				F6E62D5E22CD8B8400D8EE9D /* Products */,
+				F4F9357D512C46845B27AD4C /* Pods */,
+				12923C5D3E6E5D81C62820BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F6E62D5E22CD8B8400D8EE9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6E62D5D22CD8B8400D8EE9D /* loginzalo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6E62D5F22CD8B8400D8EE9D /* loginzalo */ = {
+			isa = PBXGroup;
+			children = (
+				F6E62D6022CD8B8400D8EE9D /* AppDelegate.swift */,
+				F6E62D6222CD8B8400D8EE9D /* LoginViewController.swift */,
+				F6E62D6422CD8B8400D8EE9D /* Main.storyboard */,
+				F6E62D6722CD8B8500D8EE9D /* Assets.xcassets */,
+				F6E62D6922CD8B8500D8EE9D /* LaunchScreen.storyboard */,
+				F6E62D6C22CD8B8500D8EE9D /* Info.plist */,
+			);
+			path = loginzalo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6E62D5C22CD8B8400D8EE9D /* loginzalo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6E62D6F22CD8B8500D8EE9D /* Build configuration list for PBXNativeTarget "loginzalo" */;
+			buildPhases = (
+				D4A2D0F4EAE9DD75E4750F4E /* [CP] Check Pods Manifest.lock */,
+				F6E62D5922CD8B8400D8EE9D /* Sources */,
+				F6E62D5A22CD8B8400D8EE9D /* Frameworks */,
+				F6E62D5B22CD8B8400D8EE9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = loginzalo;
+			productName = loginzalo;
+			productReference = F6E62D5D22CD8B8400D8EE9D /* loginzalo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6E62D5522CD8B8400D8EE9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Nguyen khac vu";
+				TargetAttributes = {
+					F6E62D5C22CD8B8400D8EE9D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F6E62D5822CD8B8400D8EE9D /* Build configuration list for PBXProject "loginzalo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6E62D5422CD8B8400D8EE9D;
+			productRefGroup = F6E62D5E22CD8B8400D8EE9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6E62D5C22CD8B8400D8EE9D /* loginzalo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6E62D5B22CD8B8400D8EE9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E62D6B22CD8B8500D8EE9D /* LaunchScreen.storyboard in Resources */,
+				F6E62D6822CD8B8500D8EE9D /* Assets.xcassets in Resources */,
+				F6E62D6622CD8B8400D8EE9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D4A2D0F4EAE9DD75E4750F4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-loginzalo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6E62D5922CD8B8400D8EE9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6E62D6322CD8B8400D8EE9D /* LoginViewController.swift in Sources */,
+				F6E62D6122CD8B8400D8EE9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6E62D6422CD8B8400D8EE9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E62D6522CD8B8400D8EE9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6E62D6922CD8B8500D8EE9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6E62D6A22CD8B8500D8EE9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6E62D6D22CD8B8500D8EE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6E62D6E22CD8B8500D8EE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6E62D7022CD8B8500D8EE9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221C18F6B0131C5DB449921F /* Pods-loginzalo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = loginzalo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naviga-loginzalo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6E62D7122CD8B8500D8EE9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A7ED5801A34B787E7DB5C95 /* Pods-loginzalo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = loginzalo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "naviga-loginzalo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6E62D5822CD8B8400D8EE9D /* Build configuration list for PBXProject "loginzalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E62D6D22CD8B8500D8EE9D /* Debug */,
+				F6E62D6E22CD8B8500D8EE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6E62D6F22CD8B8500D8EE9D /* Build configuration list for PBXNativeTarget "loginzalo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6E62D7022CD8B8500D8EE9D /* Debug */,
+				F6E62D7122CD8B8500D8EE9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6E62D5522CD8B8400D8EE9D /* Project object */;
+}
